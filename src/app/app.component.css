@@ -61,8 +61,12 @@
   width: 150px;
 }
 .size-custom-lorenzo {
-  height: 150px;
-  width: 130px;
+  height: 180px;
+  width: 170px;
+}
+.size-custom-codice {
+  height: 180px;
+  width: 170px;
 }
 .size-custom-baz2 {
   height: 150px;

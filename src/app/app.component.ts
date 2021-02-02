@@ -67,12 +67,12 @@ export class AppComponent implements OnInit {
     this.firedPasta = true;
     setTimeout(() => {
       this.firedPasta = false;
-      $('#proPasta').animate({left: '800px'}, {duration:1500});
+      $('#proPasta').animate({left: '800px'}, {duration:2000});
     }, 250);
     setTimeout(() => {
       this.proPasta = false;
       this.killedPasta = true;
-    }, 1500);
+    }, 2000);
   }
 
   resetPasta() {
