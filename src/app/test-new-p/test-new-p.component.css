@@ -1,0 +1,12 @@
+.gif-pro {
+  width: 20px;
+  height: 20px;
+}
+
+.divCss {
+  background-image: url("~src/assets/img/pro3.png");
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  background-size: contain;
+}

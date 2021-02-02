@@ -1,0 +1,70 @@
+.gif {
+  width: 40px;
+  height: 40px;
+}
+
+.gif-2 {
+  width: 100%;
+  height: 100%;
+}
+
+.gif-2 {
+  width: 100%;
+  height: 70%;
+}
+
+.gif-pro {
+  width: 1px;
+  height: 1px;
+}
+
+.bg-success {
+  background-image: url("~src/assets/img/pro3.png");
+}
+
+.divCss {
+  background-image: url("~src/assets/img/pro3.png");
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  background-size: contain;
+}
+
+.divCss2 {
+  background-image: url("~src/assets/img/pro2.png");
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.divCssPasta {
+  background-image: url("~src/assets/img/pasta.jpeg");
+  height: 150px;
+  width: 130px;
+  position: absolute;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.size-custom-esp {
+  height: 100px;
+  width: 150px;
+}
+
+.size-custom-papa {
+  height: 100px;
+  width: 150px;
+}
+.size-custom-pasta {
+  height: 150px;
+  width: 150px;
+}
+.size-custom-lorenzo {
+  height: 150px;
+  width: 130px;
+}
+.size-custom-baz2 {
+  height: 150px;
+  width: 130px;
+}

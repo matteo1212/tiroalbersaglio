@@ -1,0 +1,75 @@
+<div style="text-align: center"><h1>Acchiappali Tutti!!!</h1></div>
+<div class="container">
+  <div class="row">
+    <div class="col-1">
+      <img class="gif-2" id="gif" src="../assets/img/pist.jpg">
+    </div>
+    <div class="col-1">
+      <img *ngIf="fired" class="gif-2" src="../assets/img/scoppio.png">
+    </div>
+    <div class="col-9">
+      <div *ngIf="pro" class="divCss" id="pro">
+      </div>
+    </div>
+    <div class="col-1">
+      <img *ngIf="killed" class="gif-2" src="../assets/img/blood.jpg">
+      <img *ngIf="!killed" class="gif-2" src="../assets/img/sheep.jpg">
+    </div>
+    <div class="col-12">
+      <button class="btn btn-danger" (click)="fire()">kill</button>
+    </div>
+    <div class="col-12">
+      <button class="btn btn-primary" (click)="reset()">ripristina</button>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-1">
+      <img class="gif-2" id="gif2" src="../assets/img/baz.jpg">
+    </div>
+    <div class="col-1">
+      <img *ngIf="fired2" class="gif-2" src="../assets/img/scoppio.png">
+    </div>
+    <div class="col-9">
+      <div *ngIf="pro2" class="divCss2" id="pro2">
+      </div>
+    </div>
+    <div class="col-1">
+      <img *ngIf="!killed2" class="gif-2 size-custom-papa" src="http://www.taxitam.it/wp-content/uploads/2015/07/Papa_Francesco1.jpg">
+      <img *ngIf="killed2" class="gif-2 size-custom-esp" src="../assets/img/esp.png">
+    </div>
+    <div class="col-12">
+      <button class="btn btn-danger" (click)="fire2()">kill</button>
+    </div>
+    <div class="col-12">
+      <button class="btn btn-primary" (click)="reset2()">ripristina</button>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-1">
+      <img class="size-custom-baz2" id="gif3" src="../assets/img/baz.jpg">
+    </div>
+    <div class="col-1">
+      <img *ngIf="firedPasta" class="gif-2" src="../assets/img/scoppio.png">
+    </div>
+    <div class="col-9">
+      <div *ngIf="proPasta" class="divCssPasta" id="proPasta">
+      </div>
+    </div>
+    <div class="col-1">
+      <img *ngIf="!killedPasta" class="size-custom-lorenzo" src="../assets/img/codice.png">
+      <img *ngIf="killedPasta" class="size-custom-lorenzo" src="../assets/img/lorenzo.jpeg">
+    </div>
+    <div class="col-12">
+      <button class="btn btn-danger" (click)="firePasta()">kill</button>
+    </div>
+    <div class="col-12">
+      <button class="btn btn-primary" (click)="resetPasta()">ripristina</button>
+    </div>
+  </div>
+</div>
